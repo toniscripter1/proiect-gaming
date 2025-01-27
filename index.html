@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proiect Gaming - Angelescu Nicolae Antonio</title>
+</head>
+<body>
+    <!-- Header și navigare -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Acasă</a></li>
+                <li><a href="#gallery">Galerie</a></li>
+                <li><a href="#about">Despre</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Pagina de Acasă -->
+    <section id="home">
+        <h1>Bine ai venit la proiectul meu de gaming!</h1>
+        <p>Acesta este un site dedicat tematicii gaming, creat de <strong>Angelescu Nicolae Antonio<br>Grupa 50319, Anul III, Facultatea de Informatică Economică - UPG Ploiești</strong>.</p>
+    </section>
+
+    <!-- Pagina Galerie -->
+    <section id="gallery">
+        <h1>Galerie</h1>
+        <div class="carousel">
+            <img src="https://upload.wikimedia.org/wikipedia/ro/thumb/f/f2/League_of_Legends_logo.svg/1200px-League_of_Legends_logo.svg.png" alt="League of Legends" style="width:80%; display:block; margin: 0 auto;">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/Valorant_logo_-_pink.svg/800px-Valorant_logo_-_pink.svg.png" alt="Valorant" style="width:80%; display:block; margin: 0 auto;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Computer_setup.jpg/800px-Computer_setup.jpg" alt="Setup gaming" style="width:80%; display:block; margin: 0 auto;">
+        </div>
+    </section>
+
+    <!-- Pagina Despre -->
+    <section id="about">
+        <h1>Despre Proiect</h1>
+        <p>Acest proiect a fost realizat pentru a prezenta tehnologiile web în contextul jocurilor video. Am utilizat HTML pentru a construi acest site simplu și ușor de navigat.</p>
+    </section>
+
+    <!-- Pagina Contact -->
+    <section id="contact">
+        <h1>Contact</h1>
+        <p>Poți să mă contactezi la adresa de e-mail: <strong>tony.angelescu@gmail.com</strong></p>
+        <h2>Formular de contact</h2>
+        <form action="mailto:tony.angelescu@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Numele tău:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Mesaj:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Trimite">
+            <input type="reset" value="Resetează">
+        </form>
+        <h2>Harta Universității de Petrol și Gaze Ploiești</h2>
+        <iframe src="https://www.google.com/maps/embed/v1/place?q=Universitatea+de+Petrol+și+Gaze+Ploiești&key=AIzaSyAbpHDLfnu8JoWGCmdfzI0obIUw3EE35I0" 
+        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen tabindex="0"></iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Angelescu Nicolae Antonio - Proiect Gaming</p>
+    </footer>
+</body>
+</html>
